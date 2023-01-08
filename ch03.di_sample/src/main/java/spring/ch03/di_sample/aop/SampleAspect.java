@@ -1,7 +1,5 @@
 package spring.ch03.di_sample.aop;
 
-import java.text.SimpleDateFormat;
-
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -9,6 +7,8 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
+
+import java.text.SimpleDateFormat;
 
 @Aspect
 @Component
@@ -21,7 +21,7 @@ public class SampleAspect {
 		//날짜출력
 		System.out.println(new SimpleDateFormat("yyyy/MM/dd").format(new java.util.Date()));
 		//메서드명 출력
-		System.out.println(String.format("메서드:%s", joinPoint.getSignature().getName()));
+		System.out.printf("메서드:%s%n", joinPoint.getSignature().getName());
 	}
 	
 	@After("execution(* spring.ch03.di_sample.used.*Greet.*(..))")
@@ -31,7 +31,7 @@ public class SampleAspect {
 		//날짜출력
 		System.out.println(new SimpleDateFormat("yyyy/MM/dd").format(new java.util.Date()));
 		//메서드명 출력
-		System.out.println(String.format("메서드:%s", joinPoint.getSignature().getName()));
+		System.out.printf("메서드:%s%n", joinPoint.getSignature().getName());
 	}
 	
 	@Around("execution (* spring.ch03.di_sample.used.*Greet.*(..))")

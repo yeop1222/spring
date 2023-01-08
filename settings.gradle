@@ -11,3 +11,4 @@ rootProject.name = 'spring'
 
 include ':ch03.interface_sample'
 include ':ch03.di_sample'
+include ':ch04.springdatajdbcsample'

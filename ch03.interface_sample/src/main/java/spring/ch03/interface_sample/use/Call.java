@@ -1,7 +1,6 @@
 package spring.ch03.interface_sample.use;
 
 import spring.ch03.interface_sample.used.Calculator;
-//import spring.ch03.interface_sample.used.AddCalc;
 import spring.ch03.interface_sample.used.SubCalc;
 
 public class Call {
