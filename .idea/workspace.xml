@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff848aa5-eb92-4fe7-998d-460427a443d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch04.springdatajdbcsample/src/main/java/spring/ch04/springdatajdbcsample/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch04.springdatajdbcsample/src/main/java/spring/ch04/springdatajdbcsample/repository/MemberCrudRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03.di_sample/src/main/java/spring/ch03/di_sample/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch03.di_sample/src/main/java/spring/ch03/di_sample/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03.di_sample/src/main/java/spring/ch03/di_sample/aop/SampleAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch03.di_sample/src/main/java/spring/ch03/di_sample/aop/SampleAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03.interface_sample/src/main/java/spring/ch03/interface_sample/use/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch03.interface_sample/src/main/java/spring/ch03/interface_sample/use/Call.java" afterDir="false" />
+    <list default="true" id="ff848aa5-eb92-4fe7-998d-460427a443d8" name="Changes" comment="ch04 database">
+      <change afterPath="$PROJECT_DIR$/ch05.springmvcviewsample/src/main/java/spring/ch05/springmvcviewsample/controller/HelloViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch05.springmvcviewsample/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,17 +50,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="spring" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -71,8 +60,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -92,6 +82,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -104,7 +99,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "9ca97988a35a49632894bbf9b3238326",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "098f8baf2682cebdb7d5984510d8f4ee",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -115,7 +111,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (2)">
+  <component name="RunManager" selected="Spring Boot.Application (4)">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring.ch03.interface_sample.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch03.interface_sample.Application" />
@@ -132,6 +128,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring.ch04.springdatajdbcsample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch04.springdatajdbcsample.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring.ch05.springmvcviewsample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch05.springmvcviewsample.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,8 +182,25 @@
       <option name="presentableId" value="Default" />
       <updated>1673174217174</updated>
       <workItem from="1673174218705" duration="236000" />
-      <workItem from="1673179636727" duration="5449000" />
+      <workItem from="1673179636727" duration="7215000" />
+      <workItem from="1673197764597" duration="63000" />
+      <workItem from="1673197836605" duration="280000" />
     </task>
+    <task id="LOCAL-00001" summary="ch04 database">
+      <created>1673191805734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673191805734</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ch04 database">
+      <created>1673191866153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673191866153</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,5 +228,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ch04 database" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch04 database" />
   </component>
 </project>

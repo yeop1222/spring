@@ -10,5 +10,10 @@
         <module name="spring.ch04.springdatajdbcsample.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch04.springdatajdbcsample" target="11" />
+      <module name="ch04.springdatajdbcsample.main" target="11" />
+      <module name="ch04.springdatajdbcsample.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
