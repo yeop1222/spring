@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff848aa5-eb92-4fe7-998d-460427a443d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ch04.springdatajdbcsample/src/main/java/spring/ch04/springdatajdbcsample/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch04.springdatajdbcsample/src/main/java/spring/ch04/springdatajdbcsample/repository/MemberCrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03.di_sample/src/main/java/spring/ch03/di_sample/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch03.di_sample/src/main/java/spring/ch03/di_sample/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03.di_sample/src/main/java/spring/ch03/di_sample/aop/SampleAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch03.di_sample/src/main/java/spring/ch03/di_sample/aop/SampleAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch03.interface_sample/src/main/java/spring/ch03/interface_sample/use/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch03.interface_sample/src/main/java/spring/ch03/interface_sample/use/Call.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/SpringDataJDBCSample">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ch04.SpringDataJDBCSample">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ch04_springdatajdbcsample">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/demo">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/cho4.springdatajdbcsample">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K2YbbSauwY9nL3Q4oVVi75MhwH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "F:/study/spring/ch04.SpringDataJDBCSample",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "9ca97988a35a49632894bbf9b3238326",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (2)">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring.ch03.interface_sample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch03.interface_sample.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ch04.springdatajdbcsample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch04.springdatajdbcsample.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.ch04.springdatajdbcsample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring.ch03.di_sample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch03.di_sample.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ch04SpringdatajdbcsampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ch04_springdatajdbcsample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springdatajdbcsample.ch04_springdatajdbcsample.Ch04SpringdatajdbcsampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataJdbcSampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringDataJDBCSample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ch04.springdatajdbcsample.SpringDataJdbcSampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff848aa5-eb92-4fe7-998d-460427a443d8" name="Changes" comment="" />
+      <created>1673174217174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673174217174</updated>
+      <workItem from="1673174218705" duration="236000" />
+      <workItem from="1673179636727" duration="5449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

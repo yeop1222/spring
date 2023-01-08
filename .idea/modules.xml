@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringDataJDBCSample/SpringDataJDBCSample.iml" filepath="$PROJECT_DIR$/SpringDataJDBCSample/SpringDataJDBCSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04.springdatajdbcsample/spring.ch04.springdatajdbcsample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04.springdatajdbcsample/spring.ch04.springdatajdbcsample.main.iml" />
+    </modules>
+  </component>
+</project>
