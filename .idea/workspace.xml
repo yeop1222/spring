@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff848aa5-eb92-4fe7-998d-460427a443d8" name="Changes" comment="ch04 database">
-      <change afterPath="$PROJECT_DIR$/ch05.springmvcviewsample/src/main/java/spring/ch05/springmvcviewsample/controller/HelloViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch05.springmvcviewsample/src/main/resources/templates/hello.html" afterDir="false" />
+    <list default="true" id="ff848aa5-eb92-4fe7-998d-460427a443d8" name="Changes" comment="ch05 MVC model">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/ch06.thymeleafsample/spring.ch06.thymeleafsample.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06.springmvcmodelsample/src/main/java/spring/ch06/springmvcmodelsample/controller/HelloModelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06.springmvcmodelsample/src/main/resources/templates/helloThymeleaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06.thymeleafsample/src/main/java/spring/ch06/thymeleafsample/controller/ThymeleafController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06.thymeleafsample/src/main/java/spring/ch06/thymeleafsample/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06.thymeleafsample/src/main/resources/templates/commons/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06.thymeleafsample/src/main/resources/templates/fragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06.thymeleafsample/src/main/resources/templates/pageA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch06.thymeleafsample/src/main/resources/templates/useThymeleaf.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
@@ -78,6 +87,7 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -89,6 +99,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "F:/study/spring/ch04.SpringDataJDBCSample",
@@ -111,7 +122,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (4)">
+  <component name="RunManager" selected="Spring Boot.Application (6)">
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring.ch03.interface_sample.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch03.interface_sample.Application" />
@@ -142,6 +153,20 @@
     <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring.ch05.springmvcviewsample.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch05.springmvcviewsample.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring.ch06.springmvcmodelsample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch06.springmvcmodelsample.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring.ch06.thymeleafsample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch06.thymeleafsample.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,7 +209,8 @@
       <workItem from="1673174218705" duration="236000" />
       <workItem from="1673179636727" duration="7215000" />
       <workItem from="1673197764597" duration="63000" />
-      <workItem from="1673197836605" duration="280000" />
+      <workItem from="1673197836605" duration="553000" />
+      <workItem from="1673266193581" duration="4909000" />
     </task>
     <task id="LOCAL-00001" summary="ch04 database">
       <created>1673191805734</created>
@@ -200,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673191866153</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ch05 MVC model">
+      <created>1673198293048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673198293048</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +264,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ch04 database" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch04 database" />
+    <MESSAGE value="ch05 MVC model" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch05 MVC model" />
   </component>
 </project>

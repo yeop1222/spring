@@ -15,6 +15,8 @@
             <option value="$PROJECT_DIR$/ch03.interface_sample" />
             <option value="$PROJECT_DIR$/ch04.springdatajdbcsample" />
             <option value="$PROJECT_DIR$/ch05.springmvcviewsample" />
+            <option value="$PROJECT_DIR$/ch06.springmvcmodelsample" />
+            <option value="$PROJECT_DIR$/ch06.thymeleafsample" />
           </set>
         </option>
       </GradleProjectSettings>
