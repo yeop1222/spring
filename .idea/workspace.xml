@@ -4,26 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff848aa5-eb92-4fe7-998d-460427a443d8" name="Changes" comment="ch06 thymeleaf template">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/ch07.requestparamsample/spring.ch07.requestparamsample.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.pathvariablesample/src/main/java/spring/ch07/pathvariablesample/controller/PathVariableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.pathvariablesample/src/main/resources/templates/pathvariable/function1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.pathvariablesample/src/main/resources/templates/pathvariable/function2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.pathvariablesample/src/main/resources/templates/pathvariable/function3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.pathvariablesample/src/main/resources/templates/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.pathvariablesample/src/main/resources/templates/submit/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.pathvariablesample/src/main/resources/templates/submit/b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.pathvariablesample/src/main/resources/templates/submit/c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.requestparamsample/src/main/java/spring/ch07/requestparamsample/controller/RequestParamController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.requestparamsample/src/main/java/spring/ch07/requestparamsample/form/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.requestparamsample/src/main/resources/templates/confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.requestparamsample/src/main/resources/templates/confirm2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch07.requestparamsample/src/main/resources/templates/entry.html" afterDir="false" />
+    <list default="true" id="ff848aa5-eb92-4fe7-998d-460427a443d8" name="Changes" comment="ch07 request parameter">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/ch08.validatorsample/spring.ch08.validatorsample.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08.validatorsample/src/main/java/spring/ch08/validatorsample/controller/ValidationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08.validatorsample/src/main/java/spring/ch08/validatorsample/form/CalcForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08.validatorsample/src/main/java/spring/ch08/validatorsample/validator/CalcValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08.validatorsample/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08.validatorsample/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08.validatorsample/src/main/resources/templates/confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch08.validatorsample/src/main/resources/templates/entry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +66,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,7 +119,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "File.Encoding",
     "spring.configuration.checksum": "ae97ccdd12d7815bccd41201b09fb7a2",
     "vue.rearranger.settings.migration": "true"
   }
@@ -208,6 +200,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (9)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring.ch08.validatorsample.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch08.validatorsample.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring.ch03.di_sample.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="spring.ch03.di_sample.Application" />
@@ -248,7 +247,7 @@
       <workItem from="1673197764597" duration="63000" />
       <workItem from="1673197836605" duration="553000" />
       <workItem from="1673266193581" duration="10318000" />
-      <workItem from="1673438932327" duration="2056000" />
+      <workItem from="1673438932327" duration="7754000" />
     </task>
     <task id="LOCAL-00001" summary="ch04 database">
       <created>1673191805734</created>
@@ -278,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673271580586</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ch07 request parameter">
+      <created>1673442719114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673442719114</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +317,11 @@
     <MESSAGE value="ch04 database" />
     <MESSAGE value="ch05 MVC model" />
     <MESSAGE value="ch06 thymeleaf template" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch06 thymeleaf template" />
+    <MESSAGE value="ch07 request parameter" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch07 request parameter" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
