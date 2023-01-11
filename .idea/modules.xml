@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04.springdatajdbcsample/spring.ch04.springdatajdbcsample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04.springdatajdbcsample/spring.ch04.springdatajdbcsample.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06.thymeleafsample/spring.ch06.thymeleafsample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06.thymeleafsample/spring.ch06.thymeleafsample.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch07.requestparamsample/spring.ch07.requestparamsample.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ch07.requestparamsample/spring.ch07.requestparamsample.main.iml" />
     </modules>
   </component>
 </project>
